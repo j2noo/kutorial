@@ -12,8 +12,6 @@ public class MainController {
     public Naver kutorial() {
         System.out.println("@");
         Naver data = new Naver();
-        // 여기서 MyDataObject는 데이터를 담는 POJO(Plain Old Java Object) 클래스입니다.
-        // 이 클래스는 위에 제시된 JSON 데이터 구조와 일치해야 합니다.
         data.setUsername("ㅋ");
         data.setReceivedMail(999);
         data.setCafeNotification(999);
