@@ -9,5 +9,5 @@ import lombok.Getter;
 @Getter
 @Builder
 public class SignUpResponseDTO {
-    private String id;
+    private Long id;
 }
